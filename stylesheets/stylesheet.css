@@ -441,10 +441,10 @@ p {
 }
 
 a {
-  color: #2879d0;
+  color: #5da62b;
 }
 a:hover {
-  color: #2268b2;
+  color: #5da62b;
 }
 
 header {
@@ -466,7 +466,7 @@ header h1 {
 }
 
 header h2 {
-  width: 540px;
+  width: 700px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 26px;
@@ -518,6 +518,14 @@ aside#sidebar {
   background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
 }
 
+aside h3{
+	padding-left: 30px;
+}
+
+aside img {
+	padding-left: 30px;
+}
+
 aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
   font-weight: bold;
@@ -543,7 +551,7 @@ a.button small {
 }
 header a.button {
   position: absolute;
-  top: 0;
+  top: -6px;
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
@@ -636,7 +644,7 @@ form {
 #main-content h1:before {
   padding-right: 0.3em;
   margin-left: -0.9em;
-  color: #9ddcff;
+  color: #5da62b;
   content: "/";
 }
 
@@ -652,10 +660,10 @@ form {
   padding-right: 0.3em;
   margin-left: -1.5em;
   content: "//";
-  color: #9ddcff;
+  color: #5da62b;
 }
 
-#main-content h3 {
+h3 {
   margin-top: 24px;
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -665,11 +673,11 @@ form {
   text-indent: 3px;
 }
 
-#main-content h3:before {
+h3:before {
   padding-right: 0.3em;
   margin-left: -2em;
   content: "///";
-  color: #9ddcff;
+  color: #5da62b;
 }
 
 #main-content h4 {
@@ -685,7 +693,7 @@ h4:before {
   padding-right: 0.3em;
   margin-left: -2.8em;
   content: "////";
-  color: #9ddcff;
+  color: #5da62b;
 }
 
 #main-content h5 {
@@ -699,7 +707,7 @@ h5:before {
   padding-right: 0.3em;
   margin-left: -3.2em;
   content: "/////";
-  color: #9ddcff;
+  color: #5da62b;
 }
 
 #main-content h6 {
@@ -713,7 +721,7 @@ h6:before {
   padding-right: 0.3em;
   margin-left: -3.7em;
   content: "//////";
-  color: #9ddcff;
+  color: #5da62b;
 }
 
 p {
@@ -847,7 +855,7 @@ footer a:hover {
     line-height: 1;
     color: #2879d0;
     text-align: center;
-    background-color: #9ddcff;
+    background-color: #5da62b;
     background-image: none;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -866,7 +874,7 @@ footer a:hover {
     min-height: 0;
     padding: 20px 0;
     margin-top: 20px;
-    background-image: none;
+	background-image: none;
     border-top: solid 1px #ddd;
   }
   aside#sidebar a.button {
