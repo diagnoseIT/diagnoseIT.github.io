@@ -448,8 +448,8 @@ a:hover {
 }
 
 header {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   border-bottom: solid 0px #fafafa;
 }
@@ -495,7 +495,7 @@ header h2 {
 }
 
 #content-wrapper {
-  padding-top: 30px;
+  padding-top: 0px;
   border-top: solid 0px #fff;
 }
 
