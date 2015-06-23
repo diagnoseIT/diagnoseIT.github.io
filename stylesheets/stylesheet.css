@@ -517,7 +517,7 @@ header h2 {
 .navigation ul li a {
 	display: block;
 	width: 100%;
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: normal;
 	line-height: 1.3;
 	color: #ffffff;
@@ -538,19 +538,19 @@ header h2 {
 }
 
  .navigation ul li:nth-child(3) a {
-	width: 115px;
-}
-
- .navigation ul li:nth-child(4) a {
 	width: 175px;
 }
 
-.navigation ul li:nth-child(5) a {
+ .navigation ul li:nth-child(4) a {
 	width: 70px;
+}
+
+.navigation ul li:nth-child(5) a {
+	width: 155px;
 } 
 
 .navigation ul li:last-child a {
-	width: 155px;
+	width: 115px;
 } 
 
 .navigation ul li a:active {
