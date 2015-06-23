@@ -537,9 +537,16 @@ header h2 {
 	/*border-top-left-radius: 8px;*/
 }
 
-.navigation ul li:last-child a {
+ .navigation ul li:nth-child(3) a {
 	width: 115px;
-	/*border-top-right-radius: 8px;*/
+}
+
+ .navigation ul li:nth-child(4) a {
+	width: 175px;
+}
+
+.navigation ul li:last-child a {
+	width: 70px;
 } 
 
 .navigation ul li a:active {
