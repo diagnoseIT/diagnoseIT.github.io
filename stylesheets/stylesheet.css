@@ -545,8 +545,12 @@ header h2 {
 	width: 175px;
 }
 
-.navigation ul li:last-child a {
+.navigation ul li:nth-child(5) a {
 	width: 70px;
+} 
+
+.navigation ul li:last-child a {
+	width: 155px;
 } 
 
 .navigation ul li a:active {
@@ -554,6 +558,10 @@ header h2 {
 }
 
 .navigation ul li a:hover {
+	color: #474747;
+}
+
+.navigation ul li a.currentlink {
 	color: #474747;
 }
 
